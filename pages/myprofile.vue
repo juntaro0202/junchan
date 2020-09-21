@@ -2,7 +2,13 @@
   <v-layout>
     <v-card>
       <v-flex>
-        <img src="/mylogo.png" class="yohaku" />
+        <v-card>
+          <v-layout justify-center>
+            <v-avatar size="20%">
+              <v-img src="mylogo.png"></v-img>
+            </v-avatar>
+          </v-layout>
+        </v-card>
         <h2>運営者紹介</h2>
         <h3>日本の没落を食い止めるのは思想の転換である</h3>
         <div class="textbox">

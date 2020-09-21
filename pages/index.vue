@@ -1,22 +1,19 @@
 <template>
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
-      <div class="text-center">
-        <v-container fluid>
-          <v-row>
-            <v-col cols="6" sm="3">
-              <v-img
-                src="http://hitsusya.com/wp-content/uploads/2020/09/logo.png"
-                gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
-              ></v-img>
-            </v-col>
-          </v-row>
-        </v-container>
-      </div>
       <v-card>
-        <v-card-title class="headline"
-          >Welcome to じゅんちゃん official site</v-card-title
-        >
+        <v-layout justify-center>
+          <v-avatar size="20%">
+            <v-img src="mylogo.png"></v-img>
+          </v-avatar>
+        </v-layout>
+      </v-card>
+      <v-card>
+        <v-card-title class="headline">
+          <v-layout justify-center>
+            Welcome to じゅんちゃん official site</v-layout
+          >
+        </v-card-title>
         <v-card-text>
           <p>本サイトはじゅんちゃんの活動についてまとめているサイトです。</p>
           <p>
@@ -49,8 +46,7 @@
             >。
           </p>
           <p>
-            Thank you for developing with Vuetify and I look forward to bringing
-            more exciting features in the future.
+            Thank you for visiting my site.
           </p>
           <div class="text-xs-right">
             <em>

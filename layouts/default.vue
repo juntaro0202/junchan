@@ -33,6 +33,10 @@
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title v-text="title" />
+      <nuxt-link to="/" class="top">
+        <v-avatar size="20%"> <v-img src="mylogo.png"></v-img> </v-avatar
+      ></nuxt-link>
+
       <v-spacer />
     </v-app-bar>
     <v-main>
@@ -82,13 +86,13 @@ export default {
           title: "Event",
           to: "/reading"
         }
-      ],
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: "Junchan's Official site",
-      to: "/"
+      ]
     };
   }
 };
 </script>
+<style>
+.top {
+  width: 280px;
+}
+</style>
