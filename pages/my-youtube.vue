@@ -43,9 +43,6 @@
   </v-layout>
 </template>
 <style>
-img {
-  margin: 20px;
-}
 h1 {
   margin: 20px;
 }

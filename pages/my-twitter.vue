@@ -1,7 +1,7 @@
 <template>
-  <v-card class="top">
+  <v-card class="flex-container">
     <v-layout column justify-center align-center>
-      <v-card>
+      <v-card class="text">
         <v-layout justify-center>
           <v-avatar size="80%">
             <a
@@ -63,11 +63,13 @@ img {
 }
 h1 {
   margin: 20px;
+  text-align: center;
 }
 p {
   margin: 20px;
+  text-align: center;
 }
-.menu {
-  flex-direction: row;
+.flex-container {
+  justify-content: start;
 }
 </style>
