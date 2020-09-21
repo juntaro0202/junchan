@@ -49,4 +49,7 @@ h1 {
 p {
   margin: 20px;
 }
+img {
+  margin: 20px;
+}
 </style>

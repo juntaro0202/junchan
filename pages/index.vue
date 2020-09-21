@@ -3,8 +3,8 @@
     <v-flex xs12 sm8 md6>
       <v-card>
         <v-layout justify-center>
-          <v-avatar size="20%">
-            <v-img src="mylogo.png"></v-img>
+          <v-avatar size="20%" width="200px" height="200px">
+            <img src="mylogo.png" />
           </v-avatar>
         </v-layout>
       </v-card>
